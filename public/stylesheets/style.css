@@ -1,0 +1,33 @@
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+h1 {
+  text-align: center;
+  font-style: italic;
+  color: white;
+}
+
+body {
+  margin: 0;
+  font: 28px 'Pacifico', cursive;
+  background-color: #3498db;
+}
+
+header {
+  border-radius: 10px;
+  padding: 0.444em;
+  margin: 0.444em;
+  background-color: #2980b9;
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin: 1em;
+  text-align: center;
+}
+*:focus {outline: none;}
+
+input.buttom {
+	color: white;
+}

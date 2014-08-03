@@ -1,0 +1,7 @@
+extends layout
+
+block content
+ header
+  h1 Bus Timetable
+  -for(var num in busData)
+   p #{busData[num]}

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+   header
+    h1 Bus Timetable UK
+     form(method="post", action="/buses")
+      input(type="text", placeholder="Bus Stop Code", name="busstopcode")
+      br
+      input(type="submit", value="Get Timetable")
+    p Website made with &hearts; by Liza Amini
